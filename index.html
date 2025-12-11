@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Student Registration Form</h1>
+    <p class="subtitle">Fill in this form to register</p>
+
+    <form class="regform" action="#" method="get" autocomplete="off" novalidate>
+      <div class="row">
+        <label class="label" for="first">First Name</label>
+        <input id="first" name="first" type="text" placeholder="Enter your first name" class="input">
+      </div>
+
+      <div class="row">
+        <label class="label" for="last">Last Name</label>
+        <input id="last" name="last" type="text" placeholder="Enter your last name" class="input">
+      </div>
+
+      <div class="row">
+        <label class="label" for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="Enter your e-mail" class="input">
+      </div>
+
+      <div class="row">
+        <label class="label" for="dob">Date of Birth</label>
+        <input id="dob" name="dob" type="date" class="input input-date">
+      </div>
+
+      <div class="row">
+        <label class="label" for="uname">Set Username</label>
+        <input id="uname" name="username" type="text" placeholder="Set Username" class="input">
+      </div>
+
+      <div class="row">
+        <label class="label" for="pwd">Set Password</label>
+        <input id="pwd" name="password" type="password" placeholder="Set password" class="input">
+      </div>
+
+      <div class="row">
+        <label class="label">Gender</label>
+        <div class="radio-col">
+          <label class="radio"><input type="radio" name="gender" value="Male"> Male</label>
+          <label class="radio"><input type="radio" name="gender" value="Female"> Female</label>
+          <label class="radio"><input type="radio" name="gender" value="Others"> Others</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="label" for="course">Course :</label>
+        <select id="course" name="course" class="input select">
+          <option value="">Course</option>
+          <option>B.Tech</option>
+          <option>B.Sc</option>
+          <option>MCA</option>
+          <option>MBA</option>
+        </select>
+      </div>
+
+      <div class="row action-row">
+        <button type="submit" class="btn">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+Start-Process index.html
